@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: guestbook-ui
 spec:
-  Type: NodePort
+  type: NodePort
   selector:
     app: guestbook-ui
   ports:
